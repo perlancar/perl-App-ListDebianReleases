@@ -18,20 +18,20 @@ $SPEC{list_debian_releases} = {
             schema => 'bool*',
         },
     },
-},
+};
 sub list_debian_releases {
     require Debian::Releases; # rather chubby
+
+    my %args = @_;
 
     my $dr = Debian::Releases->new;
     my $rel = $dr->releases;
     #use Data::Dump; dd $rel;
     my @res;
     for (sort {cmp_version($a, $b)} keys $rel) {
-        push @res, $arg{detail} ? {a=>$_, b=>$rel->{$_}} : $_;
+        push @res, $args{detail} ? {version=>$_, code_name=>$rel->{$_}} : $_;
     }
     [200, "OK", \@res];
-}
-
 }
 
 1;
