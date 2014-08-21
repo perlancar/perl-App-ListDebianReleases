@@ -28,7 +28,7 @@ sub list_debian_releases {
     my $rel = $dr->releases;
     #use Data::Dump; dd $rel;
     my @res;
-    for (sort {cmp_version($a, $b)} keys $rel) {
+    for (sort {cmp_version($a, $b)} keys %$rel) {
         push @res, $args{detail} ? {version=>$_, code_name=>$rel->{$_}} : $_;
     }
     [200, "OK", \@res];
