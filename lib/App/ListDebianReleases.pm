@@ -35,7 +35,7 @@ sub list_debian_releases {
 }
 
 1;
-# ABSTRACT: List Debian releases
+# ABSTRACT:
 
 =head1 SEE ALSO
 
