@@ -16,6 +16,7 @@ $SPEC{list_debian_releases} = {
     args => {
         detail => {
             schema => 'bool*',
+            cmdline_aliases => {l=>{}},
         },
     },
 };
