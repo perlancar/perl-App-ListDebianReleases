@@ -1,14 +1,14 @@
-0.06    2015-09-22 (PERLANCAR)
+0.06    2015-09-22  Released-By: PERLANCAR
 
 	- Switch (temporarily?) to PERLANCAR::Debian::Releases.
 
 
-0.05    2015-09-22 (PERLANCAR)
+0.05    2015-09-22  Released-By: PERLANCAR
 
 	- [ux] Add short alias -l for --detail (like in ls).
 
 
-0.04    2015-09-03 (PERLANCAR)
+0.04    2015-09-03  Released-By: PERLANCAR
 
 	- No functional changes.
 
@@ -17,14 +17,14 @@
 	  requirement.
 
 
-0.03    2014-12-29 (PERLANCAR)
+0.03    2014-12-29  Released-By: PERLANCAR
 
 	- No functional changes.
 
 	- Prefer pericmd-lite for CLI.
 
 
-0.02    2014-08-21 (SHARYANTO)
+0.02    2014-08-21  Released-By: SHARYANTO
 
         - No functional changes.
 
