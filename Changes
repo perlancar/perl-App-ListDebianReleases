@@ -31,6 +31,7 @@
         - Fix keys() argument, which doesn't work in older perls [CT].
 
 
-0.01    2014-08-16 (SHARYANTO) - Happy 19th CPAN Day!
+0.01    2014-08-16  Released-By: SHARYANTO; Note: Happy 19th CPAN Day!
 
         - First release.
+
