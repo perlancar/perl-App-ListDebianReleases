@@ -2,3 +2,4 @@ App-ListDebianReleases-*
 .build
 *~
 nytprof*
+.DS_Store
